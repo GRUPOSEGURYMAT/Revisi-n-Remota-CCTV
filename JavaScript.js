@@ -10,8 +10,16 @@ document.getElementById('instalaciondirecto').addEventListener('change', functio
     mostrarImagenesEnDiv(e.target.files, 'previewDirecto');
 });
 
+document.getElementById('observaciones').addEventListener('change', function (e) {
+    mostrarImagenesEnDiv(e.target.files, 'previewObservaciones');
+});
+
 document.getElementById('instalacionocturna').addEventListener('change', function (e) {
     mostrarImagenesEnDiv(e.target.files, 'previewNocturna');
+});
+
+document.getElementById('observaciones1').addEventListener('change', function (e) {
+    mostrarImagenesEnDiv(e.target.files, 'previewObservaciones1');
 });
 
 

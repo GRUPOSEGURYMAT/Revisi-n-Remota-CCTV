@@ -20,7 +20,7 @@
                 </div>
                 <div class="form-section">
                     <label for="cliente">CLIENTE:</label>
-                    <input type="text" id="cliente" name="cliente" value="XXXXXXXXXXX" class="cliente-input">
+                    <textarea id="cliente" name="cliente" class="cliente-textarea" rows="2">XXXXXXXXXXX</textarea>
                 </div>
                 <div class="form-section">
                     <label for="fecha">FECHA:</label>
@@ -36,15 +36,19 @@
             <label for="instalaciondirecto" class="custom-file-label">INSTALACIÓN VISIÓN EN DIRECTO</label>
             <input type="file" id="instalaciondirecto" accept="image/*" multiple class="file-input">
             <div id="previewDirecto"></div>
-            <label for="observaciones">OBSERVACIONES:</label>
-            <input type="text" id="observaciones" value="XXXXXXXXXX">
+            <label for="observaciones" class="custom-file-label">OBSERVACIONES:</label>
+            <textarea>XXXXXX</textarea>
+            <input type="file" id="observaciones" accept="image/*" multiple class="file-input">
+            <div id="previewObservaciones"></div>
             </div>
             <div class="bloque-imagen-observacion">
             <label for="instalacionocturna" class="custom-file-label">INSTALACIÓN VISIÓN NOCTURNA</label>
             <input type="file" id="instalacionocturna" accept="image/*" multiple class="file-input">
             <div id="previewNocturna"></div>
-            <label for="observaciones1">OBSERVACIONES:</label>
-            <input type="text" id="observaciones1" value="XXXXXXXXXX">
+            <label for="observaciones1" class="custom-file-label">OBSERVACIONES:</label>
+            <textarea>XXXXXXX</textarea>
+            <input type="file" id="observaciones1" accept="image/*" multiple class="file-input">
+            <div id="previewObservaciones1"></div>
             <label for="diasgrabacion">DÍAS DE GRABACIÓN:</label>
             <input type="text" id="diasgrabacion" value="XXXXXXXXXX">
             </div>
